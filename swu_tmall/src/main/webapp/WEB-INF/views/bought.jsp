@@ -297,12 +297,11 @@
                 <tr class="orderListItemFirstTR">
                     <td colspan="2">
                         <b>${o.create_date}</b>
-                        <span>订单号: ${o.order_code}
-                    </span>
+                        <span>订单号: ${o.order_code}</span>
                     </td>
                     <td colspan="2"><img width="13px" src="img/fore/orderItemTmall.png">天猫商场</td>
                     <td colspan="1">
-                        <a class="wangwanglink" href="#nowhere">
+                        <a class="wangwanglink" href="http://wpa.qq.com/msgrd?v=3&uin=498366114&site=qq&menu=yes">
                             <div class="orderItemWangWangGif"></div>
                         </a>
 
@@ -321,7 +320,7 @@
                         </td>
                         <td class="orderItemProductInfoPartTD">
                             <div class="orderListItemProductLinkOutDiv">
-                                <a href="foreproduct?pid=${oi.product.id}">${oi.product.name}</a>
+                                <a href="showProduct?product_id=${oi.product.id}">${oi.product.name}</a>
                                 <div class="orderListItemProductLinkInnerDiv">
                                     <img src="img/fore/creditcard.png" title="支持信用卡支付">
                                     <img src="img/fore/7day.png" title="消费者保障服务,承诺7天退货">
