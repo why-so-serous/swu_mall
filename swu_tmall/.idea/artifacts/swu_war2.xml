@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="swu:war2">
-    <output-path>$PROJECT_DIR$/out/artifacts/swu_war2</output-path>
-    <root id="archive" name="swu_war.war">
-      <element id="artifact" artifact-name="swu:war exploded" />
-      <element id="dir-copy" path="$PROJECT_DIR$" />
-    </root>
-  </artifact>
-</component>
