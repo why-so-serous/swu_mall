@@ -1,12 +1,12 @@
 package cn.swu.service;
 
-import cn.swu.mapper.CategoryMapper;
-import cn.swu.pojo.Category;
-import cn.swu.pojo.CategoryExample;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+		import cn.swu.mapper.CategoryMapper;
+		import cn.swu.pojo.Category;
+		import cn.swu.pojo.CategoryExample;
+		import org.springframework.beans.factory.annotation.Autowired;
+		import org.springframework.stereotype.Service;
 
-import java.util.List;
+		import java.util.List;
 
 /**
  * CategoryService 的实现类
